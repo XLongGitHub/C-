@@ -15,14 +15,14 @@ int main()
         cout<<ch<<" ";
     }
 
-    cout<<endl;
-    cout<< s2 << endl;
+    cout << endl;
+    cout << s2 << endl;
 
     string s3 = s1 + s2;
-    cout<<s3<<endl;
+    cout << s3 << endl;
 
     if (!s3.empty()) {
-        cout<<s3[0];
+        cout << s3[0] << endl;
     }
     return 0;   
 }

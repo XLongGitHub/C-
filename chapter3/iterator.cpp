@@ -11,7 +11,7 @@ int main()
         auto it = s.begin();
         *it = toupper(*it);
     }
-    cou5t << s << endl;
+    cout << s << endl;
 
     for (auto it = s.begin(); it != s.end() && !isspace(*it); it++) {
         *(it) = toupper(*it);
