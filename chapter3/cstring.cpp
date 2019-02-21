@@ -43,7 +43,14 @@ int main()
 
     print(arr1);
     cout << "arr1: " <<  arr1 << endl;
+
+    char arr4[] = {'a', 'n', 'i', 'm', 'a', 'l'};
+    string s4 = arr4;
+    cout << "strlen arr4 " << strlen(arr4) << endl;
+    cout << "arr4" << arr4 << endl;
     
+    cout << "s4" << s4 << endl;
+
     return 0;
 }
 
