@@ -3,3 +3,4 @@
 *.layout
 cpp_primer/bin/
 cpp_primer/obj/
+.vscode
