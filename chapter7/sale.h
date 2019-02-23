@@ -5,7 +5,7 @@
 struct Sales_data {
     std::string isbn() const { return bookNo; }
     Sales_data& combine(const Sales_data&);
-    double avt_price() const;
+    double avg_price() const;
 
     std::string bookNo;
     unsigned units_sold = 0;
