@@ -1,3 +1,6 @@
+#ifndef SALE_H
+#define SALE_H
+
 #include <iostream>
 #include <string>
 #include <cstddef>
@@ -15,3 +18,5 @@ struct Sales_data {
 Sales_data add(const Sales_data&, const Sales_data&);
 std::ostream &print(std::ostream&, const Sales_data&);
 std::istream &print(std::istream&, const Sales_data&);
+
+#endif
