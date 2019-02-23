@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// 10 是一个无效的长度
 void print(const int ia[10])
 {
     for (size_t i = 0; i != 10; ++i) {
@@ -21,6 +22,7 @@ void print(const int a)
 {
     cout << a << endl;
 }
+
 int main()
 {
     int a[] = {1, 3, 4};
